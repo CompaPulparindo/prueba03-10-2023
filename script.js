@@ -27,7 +27,7 @@ console.log(frutasRecortadas);
  */
 
 const numeros2 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-const numerosSumados = numeros2.map(function (x, indice) {
+const numerosSumados = numeros2.map((x, indice) => {
   val = x + 10;
   console.log(indice + " : " + val);
 });
