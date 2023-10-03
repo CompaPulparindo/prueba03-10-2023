@@ -44,4 +44,5 @@ console.log(abecedario);
 /**Arrelgo .includes */
 
 const country = ["México", "USA", "Francia"];
+console.log("Existe francia ?");
 console.log(country.includes("Francia"));
